@@ -1,193 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple</title>
-   
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link href="CSS/home.css" rel="stylesheet">
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="CSS/home.css" rel="stylesheet">
+
 </head>
+
 <body>
-<header>
-    <ul id="navbar">
-        <div id="leftdiv"> <li class="headeritems"><ion-icon name="logo-apple"></ion-icon></li></div>
-       <div id="rightdiv"><li class="headeritems">Store</li>
-        <li class="headeritems">Mac</li>
-        <li class="headeritems">ipad</li>
-        <li class="headeritems">iphone</li>
-        <li class="headeritems">Watch</li>
-        <li class="headeritems">Vision</li>
-        <li class="headeritems">AirPods</li>
-        <li class="headeritems">TV & Home</li>
-        <li class="headeritems">Entertainment</li>
-        <li class="headeritems">Accessories</li>
-        <li class="headeritems">Support</li>
-        <li class="headeritems"><ion-icon name="search-outline"></ion-icon></li>
-        <li class="headeritems"><ion-icon name="bag-outline"></ion-icon></li></div>
-        
+    <header>
+        <ul id="navbar">
+            <div id="leftdiv">
+                <li class="headeritems"><ion-icon name="logo-apple"></ion-icon></li>
+            </div>
+            <div id="rightdiv">
+                <li class="headeritems">Store</li>
+                <li class="headeritems">Mac</li>
+                <li class="headeritems">ipad</li>
+                <li class="headeritems">iphone</li>
+                <li class="headeritems">Watch</li>
+                <li class="headeritems">Vision</li>
+                <li class="headeritems">AirPods</li>
+                <li class="headeritems">TV & Home</li>
+                <li class="headeritems">Entertainment</li>
+                <li class="headeritems">Accessories</li>
+                <li class="headeritems">Support</li>
+                <li class="headeritems"><ion-icon name="search-outline"></ion-icon></li>
+                <li class="headeritems"><ion-icon name="bag-outline"></ion-icon></li>
+            </div>
 
-    </ul>
-</header>
-<main>
-    <section class="sections">
-        <div id="macbook" class="secdiv">
-            <div class="d-flex-column content1" >
-                <h2>MacBook Pro</h2>
-                <h3>Mind-Blowing.Head-turning.</h3>
-                <div class="d-flex learnandbuy">
-                    <a href="#" class="links" id="leftlink">Learn more ></a>
-                    <a href="#" class="links" id="rightlink">Buy ></a>
-                </div>
-            </div>
-            <div>
 
-            </div>
-        </div>
-        <div id="imac" class="secdiv">
-            <div class="d-flex-column content1" >
-                <h2>iMac</h2>
-                <h3>Packed with more juice.</h3>
-                <div class="d-flex learnandbuy">
-                    <a href="#" class="links" id="leftlink">Learn more ></a>
-                    <a href="#" class="links" id="rightlink">Buy ></a>
-                </div>
-            </div>
-            <div>
-                
-            </div>
-        </div>
-        <div id="iphone" class="secdiv">
-            <div class="d-flex-column content1" id="iphone-content" >
-                <h2>iPhone 15</h2>
-                <h3>Titanium. So strong. So light. So Pro.</h3>
-                <div class="d-flex learnandbuy">
-                    <a href="#" class="links" id="leftlink">Learn more ></a>
-                    <a href="#" class="links" id="rightlink">Buy ></a>
-                </div>
-            </div>
-            <div>
-                
-            </div>
-        </div>
-    </section>
-    <section>
-        <div id="section2">
-            <div class="secdiv2" id="sec2-div1">
-                <div class="d-flex-column content1" id="iphone-contentsec2" >
-                    <h4 class="headline">iPhone 15</h4>
-                    <h5 class="subheadline">New camera. New design. Newphoria.</h5>
+        </ul>
+    </header>
+    <main>
+        <section class="sections">
+            <div id="macbook" class="secdiv">
+                <div class="d-flex-column content1">
+                    <h2>MacBook Pro</h2>
+                    <h3>Mind-Blowing.Head-turning.</h3>
                     <div class="d-flex learnandbuy">
                         <a href="#" class="links" id="leftlink">Learn more ></a>
                         <a href="#" class="links" id="rightlink">Buy ></a>
                     </div>
                 </div>
-            </div>
-            <div class="secdiv2" id="sec2-div2">
-                <div class="d-flex-column content1"  >
-                    <h4 class="headline">Wonder awaits.</h4>
-                    <h5 class="subheadline">Give the gifts they've been looking forward to all year.</h5>
-                    <div class="d-flex learnandbuy">
-                        <a href="#" class="links" id="rightlink">Shop ></a>
-                    </div>
-                </div>
-            </div>
-            <div class="secdiv2" id="sec2-div3">
-                <div class="d-flex-column content1"  >
-                    <h4 class="headline"><ion-icon name="logo-apple"></ion-icon>WATCH<span>SERIES 9</span></h4>
-                    <h5 class="subheadline">Smarter.Brighter.Mightier.</h5>
-                    <div class="d-flex learnandbuy">
-                        <a href="#" class="links" id="leftlink">Learn more ></a>
-                        <a href="#" class="links" id="rightlink">Buy ></a>
-                    </div>
-                </div>
-            </div>
-            <div class="secdiv2" id="sec2-div4">
-                <div class="d-flex-column content1"  >
-                    <h4 class="headline">AirPods Pro</h4>
-                    <h5 class="subheadline">Adaptive Audio. Now playing.</h5>
-                    <div class="d-flex learnandbuy">
-                        <a href="#" class="links" id="leftlink">Learn more ></a>
-                        <a href="#" class="links" id="rightlink">Buy ></a>
-                    </div>
-                </div>
-            </div>
-            <div class="secdiv2" id="sec2-div5">
-                <div class="d-flex-column content1"  >
-                    <h4 class="headline"><ion-icon name="logo-apple"></ion-icon>CARD</h4>
-                    <h5 class="subheadline">Get up to 3% Daily Cash back with every purchase.</h5>
-                    <div class="d-flex learnandbuy">
-                        <a href="#" class="links" id="leftlink">Learn more ></a>
-                        <a href="#" class="links" id="rightlink">Buy ></a>
-                    </div>
-                </div>
-            </div>
-            <div class="secdiv2" id="sec2-div6">
-                <div class="d-flex-column content1"  >
-                    <h4 class="headline"><ion-icon name="logo-apple"></ion-icon>Trade In</h4>
-                    <h5 class="subheadline">Get $200-$650 in credit when you trade in iphone 11 or higher.</h5>
-                    <div class="d-flex learnandbuy">
-                        <a href="#" class="links" id="leftlink">See what your device is worth ></a>
+                <div>
 
-                    </div>
                 </div>
             </div>
-        </div>
-
-    </section>
-    <section>
-        <div class="slider-part">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide swiper-1"></div>
-                  <div class="swiper-slide swiper-2"></div>
-                  <div class="swiper-slide swiper-3"></div>
-                  <div class="swiper-slide swiper-4"></div>
-                  <div class="swiper-slide swiper-5"></div>
-                  <div class="swiper-slide swiper-6"></div>
-                  <div class="swiper-slide swiper-7"></div>
-                  <div class="swiper-slide swiper-8"></div>
-                  <div class="swiper-slide swiper-9"></div>
-                  <div class="swiper-slide swiper-10"></div>
+            <div id="imac" class="secdiv">
+                <div class="d-flex-column content1">
+                    <h2>iMac</h2>
+                    <h3>Packed with more juice.</h3>
+                    <div class="d-flex learnandbuy">
+                        <a href="#" class="links" id="leftlink">Learn more ></a>
+                        <a href="#" class="links" id="rightlink">Buy ></a>
+                    </div>
                 </div>
-    
-    
-              </div>
-              <div class="swiper-pagination"></div>
-          </div>
-    </section>
-   
-</main>
-<footer>
-    <div class="footer-content">
-        <section>
-            <ul>
-                <li class="footernotes">1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.</li>
-                <li class="footernotes">To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.</li>
-                <li class="footernotes">If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.</li>
-                <li class="footernotes">Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.</li>
-                <li class="footernotes">A subscription is required for Apple TV+</li>
-            </ul>
+                <div>
+
+                </div>
+            </div>
+            <div id="iphone" class="secdiv">
+                <div class="d-flex-column content1" id="iphone-content">
+                    <h2>iPhone 15</h2>
+                    <h3>Titanium. So strong. So light. So Pro.</h3>
+                    <div class="d-flex learnandbuy">
+                        <a href="#" class="links" id="leftlink">Learn more ></a>
+                        <a href="#" class="links" id="rightlink">Buy ></a>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
         </section>
-        <nav></nav>
-    </div>
-</footer>
+        <section>
+            <div id="section2">
+                <div class="secdiv2" id="sec2-div1">
+                    <div class="d-flex-column content1" id="iphone-contentsec2">
+                        <h4 class="headline">iPhone 15</h4>
+                        <h5 class="subheadline">New camera. New design. Newphoria.</h5>
+                        <div class="d-flex learnandbuy">
+                            <a href="#" class="links" id="leftlink">Learn more ></a>
+                            <a href="#" class="links" id="rightlink">Buy ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="secdiv2" id="sec2-div2">
+                    <div class="d-flex-column content1">
+                        <h4 class="headline">Wonder awaits.</h4>
+                        <h5 class="subheadline">Give the gifts they've been looking forward to all year.</h5>
+                        <div class="d-flex learnandbuy">
+                            <a href="#" class="links" id="rightlink">Shop ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="secdiv2" id="sec2-div3">
+                    <div class="d-flex-column content1">
+                        <h4 class="headline"><ion-icon name="logo-apple"></ion-icon>WATCH<span>SERIES 9</span></h4>
+                        <h5 class="subheadline">Smarter.Brighter.Mightier.</h5>
+                        <div class="d-flex learnandbuy">
+                            <a href="#" class="links" id="leftlink">Learn more ></a>
+                            <a href="#" class="links" id="rightlink">Buy ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="secdiv2" id="sec2-div4">
+                    <div class="d-flex-column content1">
+                        <h4 class="headline">AirPods Pro</h4>
+                        <h5 class="subheadline">Adaptive Audio. Now playing.</h5>
+                        <div class="d-flex learnandbuy">
+                            <a href="#" class="links" id="leftlink">Learn more ></a>
+                            <a href="#" class="links" id="rightlink">Buy ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="secdiv2" id="sec2-div5">
+                    <div class="d-flex-column content1">
+                        <h4 class="headline"><ion-icon name="logo-apple"></ion-icon>CARD</h4>
+                        <h5 class="subheadline">Get up to 3% Daily Cash back with every purchase.</h5>
+                        <div class="d-flex learnandbuy">
+                            <a href="#" class="links" id="leftlink">Learn more ></a>
+                            <a href="#" class="links" id="rightlink">Buy ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="secdiv2" id="sec2-div6">
+                    <div class="d-flex-column content1">
+                        <h4 class="headline"><ion-icon name="logo-apple"></ion-icon>Trade In</h4>
+                        <h5 class="subheadline">Get $200-$650 in credit when you trade in iphone 11 or higher.</h5>
+                        <div class="d-flex learnandbuy">
+                            <a href="#" class="links" id="leftlink">See what your device is worth ></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="slider-part">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-1"></div>
+                        <div class="swiper-slide swiper-2"></div>
+                        <div class="swiper-slide swiper-3"></div>
+                        <div class="swiper-slide swiper-4"></div>
+                        <div class="swiper-slide swiper-5"></div>
+                        <div class="swiper-slide swiper-6"></div>
+                        <div class="swiper-slide swiper-7"></div>
+                        <div class="swiper-slide swiper-8"></div>
+                        <div class="swiper-slide swiper-9"></div>
+                        <div class="swiper-slide swiper-10"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <div class="swiper-pagination" id="pegination"></div>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <section>
+                <ul>
+                    <li class="footernotes">1. Trade-in values will vary based on the condition, year, and configuration
+                        of your eligible trade-in device. Not all devices are eligible for credit. You must be at least
+                        18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may
+                        be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value
+                        awarded is based on receipt of a qualifying device matching the description provided when
+                        estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store
+                        trade-in requires presentation of a valid photo ID (local law may require saving this
+                        information). Offer may not be available in all stores, and may vary between in-store and online
+                        trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve
+                        the right to refuse or limit quantity of any trade-in transaction for any reason. More details
+                        are available from Apple’s trade-in partner for trade-in and recycling of eligible devices.
+                        Restrictions and limitations may apply.</li>
+                    <li class="footernotes">To access and use all Apple Card features and products available only to
+                        Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has
+                        the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only
+                        for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake
+                        City Branch.</li>
+                    <li class="footernotes">If you reside in the U.S. territories, please call Goldman Sachs at
+                        877-255-5923 with questions about Apple Card.</li>
+                    <li class="footernotes">Learn more about how Apple Card applications are evaluated at
+                        support.apple.com/kb/HT209218.</li>
+                    <li class="footernotes">A subscription is required for Apple TV+</li>
+                </ul>
+            </section>
+            <div id="columns">
+                <div class="cols">
+                    <ul><span class="footer-nav-titles"> Shop and Learn</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Store</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Mac</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">iPad</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">iPhone</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Watch</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Vision</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">AirPods</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">TV & Home</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">AirTag</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Accessories</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Gift Cards</a></li>
+                    </ul>
+                    <ul><span class="footer-nav-titles">Apple Wallet</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Wallet</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Card</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Pay</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Cash</a></li>
+
+                    </ul>
+                </div>
+                <div class="cols">
+                    <ul><span class="footer-nav-titles">Account</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Manage Your Apple ID</a>
+                        </li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Store Account</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">iCloud.com</a></li>
+                    </ul>
+                    <ul><span class="footer-nav-titles">Entertainment</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple One</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple TV+</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Music</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Arcade</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Fitness+</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple News+</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Podcasts</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Books</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Store</a></li>
+                    </ul>
+                </div>
+                <div class="cols">
+                    <ul><span class="footer-nav-titles">Apple Store</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Find a Store</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Genius Bar</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Today at Apple</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Camp</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Store App</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Certified Refurbished</a>
+                        </li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple Trade In</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Financing</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Carrier Deals at Apple</a>
+                        </li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Order Status</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Shopping Help</a></li>
+                    </ul>
+                </div>
+                <div class="cols">
+                    <ul><span class="footer-nav-titles">For Business</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple and Business</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Shop for Business</a></li>
+
+                    </ul>
+                    <ul><span class="footer-nav-titles">For Education</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple and Education</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Shop for K-12</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Shop for College</a></li>
+
+                    </ul>
+                    <ul><span class="footer-nav-titles">For HealthCare</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple in HealthCare</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Health on Apple Watch</a>
+                        </li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Health Records on iPhone</a>
+                        </li>
+                    </ul>
+                    <ul><span class="footer-nav-titles">For Government</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Shop for Government</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Shop for Veterans and
+                                Military</a></li>
+                    </ul>
+                </div>
+                <div class="cols">
+                    <ul><span class="footer-nav-titles">Apple Values</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Accessability</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Education</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Environment</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Inclusion and Diversity</a>
+                        </li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Privacy</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Racial Equity and
+                                Justice</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Supplier Responsibility</a>
+                        </li>
+
+                    </ul>
+                    <ul><span class="footer-nav-titles">About Apple</span>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Newsroom</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Apple LeaderShip</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Career Opportunity</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Investors</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Ethics & Compliance</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Events</a></li>
+                        <li class="footer-nav-lis"><a href="#" class="footer-nav-lis-links">Contact Apple</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="footer-last2"><span>More ways to shop: <a href="#" style="color:rgb(27, 27, 247)">Find an Apple
+                        Store</a> or <a href="#" style="color:rgb(27, 27, 247)">Other retailer</a> near you or call
+                    1-800-MY-APPLE.</span></div>
+            <div id="footer-last">
+                <div style="display: inline; float: left;">Copyright @ 2023 Apple Inc. All rights resvered.</div>
+                <div style="display: inline;">
+                    <ul style="display: inline-block; text-align: center; margin-left: auto; margin-right: auto;">
+                        <li><a href="#">Privacy Policy</a> | </li>
+                        <li ><a href="#">Terms of Use</a> | </li>
+                        <li ><a href="#">Sales and Refunds</a> | </li>
+                        <li ><a href="#">Legal</a> | </li>
+                        <li style="display: inline-block"><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+                <div style="float: right; display: inline;">United States</div>
+            </div>
+            <div>"All product logos, designs, and trademarks, with the exception of the code, are copyrighted and belong to their respective owners" This Cole is created for study and Experimental Purposes</div>
+        </div>
+    </footer>
 
 
 </body>
+
 </html>
