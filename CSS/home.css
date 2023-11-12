@@ -203,3 +203,67 @@ body{
 .footernotes{
     margin: 10px;
 }
+
+.slider-part{
+    padding: 2vh 0vw;
+    width: 100%;
+    height: 70vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width:  90%;
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-1{
+    background-image: url(/images/swipper/swipper1.jpg);
+}
+.swiper-2{
+    background-image: url(/images/swipper/swiper2.jpg);
+}
+.swiper-3{
+    background-image: url(/images/swipper/swipper3.jpg);
+}
+.swiper-4{
+    background-image: url(/images/swipper/swipper4.jpg);
+}
+.swiper-5{
+    background-image: url(/images/swipper/swipper5.jpg);
+}
+.swiper-6{
+    background-image: url(/images/swipper/swipper6.jpg);
+}
+.swiper-7{
+    background-image: url(/images/swipper/swipper7.jpg);
+}
+.swiper-8{
+    background-image: url(/images/swipper/swipper8.jpg);
+}
+.swiper-9{
+    background-image: url(/images/swipper/swipper9.jpg);
+}
+.swiper-10{
+    background-image: url(/images/swipper/swipper10.jpg);
+}
