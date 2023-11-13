@@ -94,8 +94,8 @@ color: #6e6e73;
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  min-width: 1024px;
-  overflow: hidden;
+
+
   position: relative;
   z-index: 1;
 }
