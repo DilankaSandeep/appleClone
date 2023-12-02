@@ -54,14 +54,20 @@ for (let index = 0; index < swiperCaptionElemArray.length; index++) {
   })
   
 }
-// sliderDivElem.addEventListener('mouseenter',(e)=>{
-//   swippercaptionElem.style.opacity='1';
-//     swippercaptionElem.style.transform = 'translateY(0px)';
-// })
-// sliderDivElem.addEventListener('mouseleave',(e)=>{
-//   swippercaptionElem.style.opacity='0';
-//   swippercaptionElem.style.transform = 'translateY(50px)';
-// })
+
+const navlinkElems = document.querySelectorAll('.nav-sublink-ul li');
+navlinkElems.forEach((e)=>{
+  e.addEventListener('mouseenter',()=>{
+    e.style.color= 'white';
+
+
+  });
+  e.addEventListener('mouseleave',()=>{
+    e.style.color= 'rgba(255, 255, 255, 0.884)';
+
+  });
+})
+
 
 
 

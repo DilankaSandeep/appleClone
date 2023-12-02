@@ -39,10 +39,13 @@ header ul{
     overflow: hidden;
 
   }
-  #headeritem-mac:hover .nav-sublinks-wrapper{
-    height:65vh;
-
+  #headeritem-mac:hover #nav-sublinks-wrapper-mac{
+    height:75vh;
 }
+
+#diviate li{
+    display: none;
+ }
 #headeritem-mac:hover .nav-sublinks{
 display: flex;
 justify-content: start;
@@ -60,17 +63,103 @@ opacity: 1;
     align-items: start;
     opacity: 1;
 }
+#headeritem-watch:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+#headeritem-watch:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+#headeritem-tv:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+#headeritem-tv:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+#headeritem-entertainment:hover .nav-sublinks-wrapper{
+    height:75vh;
+
+}
+#headeritem-entertainment:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+#headeritem-accessories:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+#headeritem-accessories:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+#headeritem-support:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+#headeritem-support:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+
+#headeritem-airpods:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+#headeritem-airpods:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+#headeritem-ipad:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+
+#headeritem-ipad:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+#headeritem-iphone:hover .nav-sublinks-wrapper{
+    height:65vh;
+
+}
+#headeritem-iphone:hover .nav-sublinks{
+display: flex;
+justify-content: start;
+align-items: start;
+opacity: 1;
+}
+
+
+
   .nav-sublinks{
 
     position: relative;
     left: 0;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 50px;
     width: 85%;
 
     opacity: 0;
     transition-property: opacity;
     transition-duration: 0.25s;
+   
   }
 
   #nav-sublink-ul1{
@@ -79,7 +168,7 @@ opacity: 1;
   }
   #nav-sublink-ul1 li{
     font-size: 20px;
-    font-weight: bold;
+    color: rgba(255, 255, 255, 0.808);
   }
   #nav-sublink-ul2{
     width: 20%;
@@ -96,6 +185,10 @@ opacity: 1;
     align-items: flex-start;
     font-size: small;
     row-gap: 15px;
+     
+    transition-property:font-weight;
+    transition-duration: 1s;
+
 }
 .nav-sublink-ul span{
    opacity: 0.6;
