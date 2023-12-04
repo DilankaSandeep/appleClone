@@ -220,7 +220,7 @@ main{
 #macbook{
     width: 100%;
     height: 625px;
-    background-image:url('/images/mackbooklarge.jpg') ;
+    background-image:url('../images/mackbooklarge.jpg') ;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -228,7 +228,7 @@ main{
 #iphone{
     width: 100%;
     height: 625px;
-    background-image:url('/images/iphonepro_large.jpg') ;
+    background-image:url('../images/iphonepro_large.jpg') ;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -277,7 +277,7 @@ body{
 }
 
 #imac{
-    background-image: url('/images/imac_large.jpg');
+    background-image: url('../images/imac_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -298,13 +298,13 @@ body{
     color: black;
 }
 #sec2-div1{
-    background-image: url('/images/sec2_iphone15_large.jpg');
+    background-image: url('../images/sec2_iphone15_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #sec2-div2{
-    background-image: url('/images/holiday_2023_promo_large.jpg');
+    background-image: url('../images/holiday_2023_promo_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -324,7 +324,7 @@ body{
 #sec2-div3{
     color: white;
     text-align: center;
-    background-image: url('/images/apple_watch_series_9_large.jpg');
+    background-image: url('../images/apple_watch_series_9_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -341,7 +341,7 @@ body{
 #sec2-div4{
     color: white;
     text-align: center;
-    background-image: url('/images/airpods_large.jpg');
+    background-image: url('../images/airpods_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -350,7 +350,7 @@ body{
 #sec2-div5{
     color: black;
     text-align: center;
-    background-image: url('/images/tile__card_large.jpg');
+    background-image: url('../images/tile__card_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -359,7 +359,7 @@ body{
 #sec2-div6{
     color: black;
     text-align: center;
-    background-image: url('/images/iphone_tradein_large.jpg');
+    background-image: url('../images/iphone_tradein_large.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -432,37 +432,37 @@ body{
 }
 
 .swiper-1{
-    background-image: url(/images/swipper/swipper1.jpg);
+    background-image: url(../images/swipper/swipper1.jpg);
 
 }
 .swiper-2{
-    background-image: url(/images/swipper/swiper2.jpg);
+    background-image: url(../images/swipper/swiper2.jpg);
 }
 .swiper-3{
-    background-image: url(/images/swipper/swipper3.jpg);
+    background-image: url(../images/swipper/swipper3.jpg);
 }
 .swiper-4{
-    background-image: url(/images/swipper/swipper4.jpg);
+    background-image: url(../images/swipper/swipper4.jpg);
 }
 .swiper-5{
-    background-image: url(/images/swipper/swipper5.jpg);
+    background-image: url(../images/swipper/swipper5.jpg);
     background-size:cover;
 
 }
 .swiper-6{
-    background-image: url(/images/swipper/swipper6.jpg);
+    background-image: url(../images/swipper/swipper6.jpg);
 }
 .swiper-7{
-    background-image: url(/images/swipper/swipper7.jpg);
+    background-image: url(../images/swipper/swipper7.jpg);
 }
 .swiper-8{
-    background-image: url(/images/swipper/swipper8.jpg);
+    background-image: url(../images/swipper/swipper8.jpg);
 }
 .swiper-9{
-    background-image: url(/images/swipper/swipper9.jpg);
+    background-image: url(../images/swipper/swipper9.jpg);
 }
 .swiper-10{
-    background-image: url(/images/swipper/swipper10.jpg);
+    background-image: url(../images/swipper/swipper10.jpg);
 }
 
 #pegination{
